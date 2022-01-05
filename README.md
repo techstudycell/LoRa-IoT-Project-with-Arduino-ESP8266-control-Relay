@@ -1,5 +1,6 @@
 # LoRa-IoT-Project-with-Arduino-ESP8266-control-Relay
 In this Lora IoT project tutorial, I have shown how to make the LoRa Arduino ESP8266 control relay from the Blynk IoT platform with real-time feedback.
+
 In this article, I have covered the following topics.
 1. Explained this ESP8266 Arduino Lora IoT-based home automation project.
 2. Transmitter & Receiver Lora circuit.
@@ -69,6 +70,7 @@ Please take the proper safety precautions while working with high voltage.
 ## Create New Template for ESP8266 in Blynk Cloud
 For this smart house project, I have used the Blynk IoT Cloud Free plan. Click on the following link to create a Blynk Cloud account.
 https://blynk.cloud/dashboard/register
+
 Steps to Create New Template for ESP8266
 1. Click on New Template.
 2. Enter a template name, select the hardware as ESP8266, and the connection type will be WiFi.
@@ -77,7 +79,8 @@ You will get the BLYNK_TEMPLATE_ID and BLYNK_DEVICE_NAME after creating the temp
 
 ## Create Datastreams in Blynk Cloud
 After that, you have to create Datastreams. Here I will control 4 relays, so I have to create 4 Datastreams to control 4 relays and 1 Datastream for the feedback.
-Steps to Create Datastreams:
+
+<b>Steps to Create Datastreams:</b>
 1. Go to the Datastreams tab.
 2. Click on New Datastream and select Virtual Pin.
 3. Enter a name, select the virtual pinV1, and the datatype will be Integer. MIN value is "0" & MAX value is "1".
@@ -139,6 +142,7 @@ After that upload the code of the receiving circuit to Arduino UNO.
 
 ## Set Up Blynk IoT App Mobile Dashboard
 Install the Blynk IoT app from Google Play Store or App Store. Then log in and Tap on Developer Mode. Select the template that you have already made Then go to the Widget box (on the right) to add widgets.
+
 Steps to set up Blynk IoT app Mobile Dashboard:
 1. Add 4 Button widgets and 1 Value DIsplay widget from Widget Box.
 2. Go to Button widget settings.
@@ -157,6 +161,7 @@ You also use multiple smartphones to control the appliances with Blynk IoT App. 
 You can also control the appliances with the transmitter LoRa circuit using pushbuttons and also monitor the real-time feedback from the receiver LoRa circuit.
 After receiving the feedback the status LED will turn ON.
 Please make sure there should not be any loose connection, otherwise, this circuit may not work.
+
 In the future, I will try to add more features to this LoRa project.
 I will really appreciate it if you share your valuable feedbacks. Also if you have any query please write in the comment section.
 Thank you & Happy Learning.
